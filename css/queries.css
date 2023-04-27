@@ -1,0 +1,62 @@
+@media (max-width: 84em) {
+  .section-1-body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+  .section-2-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 75em) {
+  .section-1-header {
+    width: 70%;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  html {
+    font-size: 56.26%;
+  }
+  .brand-comment {
+    width: 100%;
+
+    font-size: 2.4rem;
+    line-height: normal;
+  }
+}
+
+@media (max-width: 40em) {
+  .section-1-body {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+  .section-1-header {
+    width: 100%;
+    align-items: center;
+  }
+  .brand-comment {
+    font-size: 1.4rem;
+
+    line-height: normal;
+  }
+  .brand-title p {
+    font-size: 1.2rem;
+  }
+  .user-comment p:nth-child(1) {
+    font-size: 1.4rem;
+    line-height: normal;
+  }
+  .user-comment p:nth-child(2) {
+    font-size: 1rem;
+    line-height: normal;
+  }
+}

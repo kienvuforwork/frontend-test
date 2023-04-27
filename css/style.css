@@ -1,0 +1,242 @@
+/* SECTION 1 */
+
+.section-1-container,
+.section-2-container {
+  background-color: #fffdf4;
+  padding: 5rem 0rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-1-content {
+  width: 80%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+/* 
+
+
+HEADER 
+
+*/
+
+.section-1-header {
+  width: 35%;
+  gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header-title h1 {
+  color: #374639;
+  letter-spacing: -0.05em;
+
+  font-style: normal;
+  font-size: 4.5rem;
+  line-height: 5.3rem;
+  letter-spacing: -0.05em;
+}
+
+/* 
+BODY
+*/
+
+.header-body h3 {
+  font-style: normal;
+  font-size: 1.9rem;
+  line-height: 2.7rem;
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  color: #3f514b;
+}
+
+.section-1-body {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.2rem;
+}
+
+.img-box {
+  margin-bottom: 1.8rem;
+}
+
+.img-box img {
+  width: 100%;
+  height: auto; /* this will maintain the aspect ratio of the image */
+  display: block; /* this ensures that the image is a block-level element and not an inline element */
+}
+
+.card-title {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.card-title h3 {
+  font-style: normal;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  letter-spacing: -0.02em;
+  color: #414f42;
+}
+
+.card-price {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.6rem;
+  align-items: center;
+  margin-bottom: 1.8rem;
+}
+.card-title p {
+  font-style: normal;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #3f514b;
+}
+
+.card-price p:nth-child(1) {
+  font-style: normal;
+
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+
+  letter-spacing: 0.01em;
+  text-decoration-line: line-through;
+  text-transform: uppercase;
+  font-feature-settings: "pnum" on, "lnum" on, "kern" off;
+
+  color: #72776c;
+}
+
+.card-price p:nth-child(2) {
+  text-decoration-line: none;
+  color: #3f514b;
+  font-feature-settings: "pnum" on, "lnum" on;
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+  text-transform: uppercase;
+}
+
+.week-content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.2rem 0;
+}
+
+.week-content p:nth-child(1) {
+  font-style: normal;
+
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  font-feature-settings: "pnum" on, "lnum" on, "kern" off;
+
+  color: #72776c;
+}
+
+.week-content p:nth-child(2) {
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #4e5c58;
+}
+
+.card-plan hr {
+  color: #ecedec;
+}
+
+/* SECTION 2 */
+
+.section-2-container {
+  margin-top: 20rem;
+
+  background-color: #f4f4f4;
+}
+
+.section-2-content {
+  padding: 5rem 3.6rem;
+  display: flex;
+  border-radius: 2rem;
+  width: 77%;
+  height: 80%;
+  background-color: #ffffff;
+}
+
+.section-2-content .img-box img {
+  border-radius: 2rem;
+}
+
+.section-2-header {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  align-items: center;
+}
+
+.brand-title p {
+  font-style: normal;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  font-feature-settings: "pnum" on, "lnum" on, "kern" off;
+  color: rgba(0, 0, 0, 0.3);
+  padding-bottom: 5rem;
+}
+
+.svg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  padding-bottom: 2.5rem;
+}
+
+.svg-container img {
+  width: 2.2rem;
+  height: 4.6rem;
+}
+
+.brand-comment {
+  font-style: normal;
+  font-size: 3rem;
+  line-height: 4rem;
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: #0d0d0d;
+  padding-bottom: 2.5rem;
+  width: 78%;
+}
+
+.user-comment p:nth-child(1) {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  letter-spacing: -0.01em;
+  color: #0d0d0d;
+  text-align: center;
+  padding-bottom: 0.6rem;
+}
+.user-comment p:nth-child(2) {
+  font-style: normal;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  letter-spacing: -0.03em;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
