@@ -9,11 +9,7 @@ html {
 }
 /* FONT */
 
-/* font-family: 'Montserrat', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Roboto', sans-serif; */
-
 body {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
